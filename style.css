@@ -1,0 +1,286 @@
+*{
+    list-style: none;
+    box-sizing: border-box; 
+    margin: 0; padding: 0; 
+    text-decoration: none; 
+}
+body{
+    background-color: rgb(216, 216, 216);
+    height: 2500px;
+}
+header nav {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    
+}
+
+header nav .main-nav{
+    float: left;
+    display: flex;  
+}
+header nav .main-nav li{
+    
+    padding: 10px 20px ; 
+}
+header nav .main-nav li a i{
+    
+    padding-right: 8px; 
+}
+header nav .main-nav li:hover{
+    
+   background-color: rgb(163, 160, 154);
+}
+header nav .main-nav li a{
+    font-size: 18px ;
+    font-family: cursive;
+    padding: 10px 20px ; 
+    color: black;
+}
+header nav h3 {
+    float: right; 
+    line-height: 2.5;
+    padding: 0 15px;
+    font-size: 18px ;
+    font-family: cursive;
+    color: white;
+    background-color: rgb(55, 57, 58);
+    /* visibility: hidden; */
+}
+header nav h3:hover {
+    background-color: rgb(163, 160, 154);
+}
+
+.header-cover{
+    background: url(/images/cover.jpg)  no-repeat center center/cover ;
+    width: 100%; height:100vh ;
+    position: relative;
+}
+.header-cover .header-form {
+    width: auto ; height: auto;
+    position: absolute;
+    top: 20% ;
+    left: 3%;
+    background-color: rgba(43, 43, 44, 0.658);
+    font-size: 19px; 
+    color: white;
+    font-family: monospace;
+}
+.header-cover .header-form h2 {
+    width: 100%; 
+    padding: 10px ;
+    background-color: rgb(55, 57, 58);
+    font-size: 18px ;
+    font-family: cursive;
+    color: white;
+}
+.header-cover .header-form .form-ul{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+    padding: 20px ;
+    
+}
+.header-cover .header-form .form-ul li{
+    
+    padding: 10px ;
+}
+.header-cover .header-form .form-ul li input{
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    
+}
+
+.header-cover .header-form i {
+    margin-right: 5px;
+}
+.header-cover .header-form button {
+    font-size: 18px; 
+    font-family: serif;
+    padding: 7px 15px;
+    background-color: rgb(55, 57, 58);
+    border: none;
+    color: white;
+
+}
+.header-cover .header-form button:hover {
+    background-color: rgba(102, 100, 100, 0.623);
+    transition: all 0.2s;
+}
+.contanier{
+    margin: 0 auto; 
+    width: 95%;
+}
+
+.room{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+}
+.contanier h1{
+    font-size: 30px ; 
+    color: rgb(2, 2, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0 10px ;
+}
+.room img{
+    width: 100%;
+}
+.room div ul{
+    display: flex;
+}
+.room div {
+    background-color: white;
+}
+
+.room div ul li i{
+    font-size: 12px ;
+    padding: 5px 4px 5px 0   ;
+}
+.room div.in-in{
+    padding: 10px 15px;
+}
+
+.room div button.choose{
+    margin: 10px 0 0 ;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+} 
+.room div button.choose:hover{
+    background-color: rgb(55, 57, 58);
+    transition: all 0.2s;
+}
+.about{
+    padding: 10px ;
+}
+
+.about .part1{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    column-gap: 20px;
+}
+.about .part1 img{
+    width: 100%;
+}
+.about .part1 p{
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(46, 46, 48); 
+    font-family: monospace;
+}
+.about .part2 ul{
+    margin : 20px 0 ;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.about .part2 i{
+    margin-right: 5px;
+    color: rgb(55, 57, 58);
+}
+.about .part3{
+    background-color:rgb(46, 46, 48); 
+    color: white;
+    display: flex;
+    padding: 20px ;
+    margin: 15px 0 ;
+}
+.about .part3 p{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.about .part3 i{
+    font-size: 20px;
+
+}
+
+.Our-Hotels .hotel1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 10px;
+}
+.Our-Hotels .hotel1 .div-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+
+.Our-Hotels .hotel1 .div-1 {
+    background: url(/images/oh1.jpg)  no-repeat center center/cover ;
+    position: relative;
+}
+.Our-Hotels .hotel1 .div-2 div{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.Our-Hotels .hotel1 div h3{
+    position: absolute;
+    bottom: 5px ; left: 5px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.Our-Hotels .hotel1 .div-3 {
+    background: url(/images/oh1.jpg)  no-repeat center center/cover ;
+}
+.Our-Hotels .hotel1 .div-4 {
+    background: url(/images/oh3.jpg)  no-repeat center center/cover ;
+}
+.Our-Hotels .hotel1 .div-5 {
+    background: url(/images/oh4.jpg)  no-repeat center center/cover ;
+}
+.Our-Hotels .hotel1 .div-6 {
+    background: url(/images/oh5.jpg)  no-repeat center center/cover ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
